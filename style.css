@@ -1,21 +1,57 @@
-div{
-    display: flex;
-    align-items: center;
-    padding-left: 150px;
-    padding-right: 10px;
-    padding-top: 50px;
-    padding-bottom: 2px;
-    margin: 20px;
-    border: 2px rgb(95, 95, 222);
-    
+/* خلفية الصفحة */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, serif;
+    background: linear-gradient(to right, #9ad3f0, #0b5fa5);
 }
 
-h1{
-    color: rgb(255, 255, 255);
-    text-decoration:wavy;
-    text-align:center;
-    font-size: xx-large;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: bold;
+/* الكارد الأبيض */
+#container {
+    max-width: 850px;
+    min-width: 300px;
+    margin: 100px auto;
+    padding: 40px 50px;
+    background-color: #ffffff;
+}
 
+/* الاسم */
+.name {
+    font-size: 32px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+/* المسمى الوظيفي */
+.title {
+    font-size: 14px;
+    color: #777;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+/* صندوق الوصف */
+.info-box {
+    display: flex;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 25px;
+    max-width: 100%;
+}
+
+/* الخط الأسود الجانبي */
+.info-box .line {
+    width: 4px;
+    height: 60px;
+    background-color: #000;
+    margin-right: 20px;
+}
+
+/* النص */
+.info-box .description {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+    margin: 0;
 }
